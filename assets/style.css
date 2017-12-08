@@ -63,18 +63,29 @@ table {
 }
 
 .header {
+  display:inline-block;
+  background:url(briefeed-wordmark.svg) no-repeat center;
   width: 100%;
-  margin: 150px auto 80px auto;
-  vertical-align: middle;
-  font-size: 70px;
-  font-weight: 400;
+  height:180px;
+  text-align: center;
+  margin: 80px auto 20px auto;
 }
 
 .icon {
-  height: 160px;
-  width: 160px;
+  margin: auto;
   border-radius: 20%;
   border: 2px solid #dddbdc;
+  height: 160px;
+  width: 160px;
+}
+
+.icon-symbol {
+  background-color: red;
+  display:inline-block;
+  background:url(briefeed-logo.svg) no-repeat center;
+  margin: 20px 0 0 0;
+  height: 120px;
+  width: 120px;
 }
 
 .description {
