@@ -95,6 +95,12 @@ table {
 }
 
 .button {
+  display:inline-block;
+  overflow:hidden;
+  background: url(assets/app-store-badge.svg) no-repeat center;
+  width:135px;
+  height:40px;
+  background-size:contain;
   margin: 80px 0 80px 0;
 }
 
