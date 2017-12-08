@@ -60,40 +60,38 @@ table {
   text-align: center;
   color: #323232;
   font-family: 'avenir-next', 'helvetica', 'arial', sans-serif;
+  font-size: 21px;
+  line-height: 33px;
+  font-weight: 300;
 }
 
 .header {
-  display:inline-block;
-  background:url(briefeed-wordmark.svg) no-repeat center;
   width: 100%;
   height:180px;
-  text-align: center;
   margin: 20px auto 20px auto;
+  display: inline-block;
+  background:url(briefeed-wordmark.svg) no-repeat center;
 }
 
 .icon {
   margin: auto;
   border-radius: 20%;
-  border: 2px solid #dddbdc;
   height: 160px;
   width: 160px;
+  border: 2px solid #dddbdc;
 }
 
 .icon-symbol {
-  background-color: red;
-  display:inline-block;
-  background:url(briefeed-logo.svg) no-repeat center;
-  margin: 20px 0 0 0;
   height: 120px;
   width: 120px;
+  margin: 20px auto 0 auto;
+  display: inline-block;
+  background:url(briefeed-logo.svg) no-repeat center;
 }
 
 .description {
   width: 90%;
   margin: 80px auto 0 auto;
-  font-size: 21px;
-  line-height: 32px;
-  font-weight: 300;
 }
 
 .button {
@@ -101,7 +99,34 @@ table {
 }
 
 footer {
-  margin: 20px 0 20px 0;
+  margin: 20px auto 20px auto;
   height: 30px;
   font-size: 9px;
+}
+
+@media only screen and (max-width: 736px) {
+    .main-container {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .header {
+        height:120px;
+    }
+
+    .icon {
+      height: 110px;
+      width: 110px;
+    }
+
+    .icon-symbol {
+      margin: 15px auto 0 auto;
+      height: 80px;
+      width: 80px;
+    }
+
+    .description {
+      width: 90%;
+      margin: 60px auto 0 auto;
+    }
 }
