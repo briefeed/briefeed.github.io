@@ -3,8 +3,6 @@
    License: none (public domain)
 */
 
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,400');
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -60,7 +58,8 @@ table {
   max-width: 560px;
   margin: auto;
   text-align: center;
-  font-family: 'Roboto', sans-serif;
+  color: #323232;
+  font-family: 'avenir-next', 'helvetica', 'arial', sans-serif;
 }
 
 .header {
@@ -76,7 +75,7 @@ table {
   height: 200px;
   width: 200px;
   border-radius: 40px;
-  border: 2px solid #DDDBDC;
+  border: 2px solid #dddbdc;
 }
 
 .description {
