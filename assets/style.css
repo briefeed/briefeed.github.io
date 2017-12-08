@@ -116,7 +116,8 @@ footer {
     }
 
     .header {
-        height:120px;
+      height:100px;
+      margin: 10px auto 10px auto;
     }
 
     .icon {
@@ -132,6 +133,10 @@ footer {
 
     .description {
       width: 90%;
-      margin: 60px auto 0 auto;
+      margin: 40px auto 0 auto;
+    }
+
+    .button {
+        margin: 40px 0 20px 0;
     }
 }
