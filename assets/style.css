@@ -108,6 +108,19 @@ footer {
   font-size: 12px;
 }
 
+#bodymovin{
+    background-color:#fff;
+    height: 140px;
+    width: 140px;
+    margin: 10px auto 0 auto;
+    display: inline-block;
+    display:inline-block;
+    overflow: hidden;
+    transform: translate3d(0,0,0);
+    text-align: center;
+    opacity: 1;
+}
+
 @media only screen and (max-width: 736px) {
     .main-container {
         font-size: 17px;
