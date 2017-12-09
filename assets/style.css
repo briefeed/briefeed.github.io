@@ -108,7 +108,7 @@ footer {
   font-size: 12px;
 }
 
-#bodymovin{
+#bodymovin {
     background-color:#fff;
     height: 140px;
     width: 140px;
@@ -137,10 +137,11 @@ footer {
       width: 110px;
     }
 
-    .icon-symbol {
-      margin: 15px auto 0 auto;
-      height: 80px;
-      width: 80px;
+
+    #bodymovin {
+      margin: 10px auto 0 auto;
+      height: 90px;
+      width: 90px;
     }
 
     .description {
