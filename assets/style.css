@@ -1,6 +1,6 @@
 /* http://meyerweb.com/eric/tools/css/reset/
-   v2.0 | 20110126
-   License: none (public domain)
+v2.0 | 20110126
+License: none (public domain)
 */
 
 html, body, div, span, applet, object, iframe,
@@ -109,47 +109,47 @@ footer {
 }
 
 #bodymovin {
-    background-color:#fff;
-    height: 140px;
-    width: 140px;
-    margin: 10px auto 0 auto;
-    display: inline-block;
-    display:inline-block;
-    overflow: hidden;
-    transform: translate3d(0,0,0);
-    text-align: center;
-    opacity: 1;
+  background-color:#fff;
+  height: 140px;
+  width: 140px;
+  margin: 10px auto 0 auto;
+  display: inline-block;
+  display:inline-block;
+  overflow: hidden;
+  transform: translate3d(0,0,0);
+  text-align: center;
+  opacity: 1;
 }
 
 @media only screen and (max-width: 736px) {
-    .main-container {
-        font-size: 17px;
-        line-height: 28px;
-    }
+  .main-container {
+    font-size: 17px;
+    line-height: 28px;
+  }
 
-    .header {
-      height:100px;
-      margin: 10px auto 10px auto;
-    }
+  .header {
+    height:100px;
+    margin: 10px auto 10px auto;
+  }
 
-    .icon {
-      height: 110px;
-      width: 110px;
-    }
+  .icon {
+    height: 110px;
+    width: 110px;
+  }
 
 
-    #bodymovin {
-      margin: 10px auto 0 auto;
-      height: 90px;
-      width: 90px;
-    }
+  #bodymovin {
+    margin: 10px auto 0 auto;
+    height: 90px;
+    width: 90px;
+  }
 
-    .description {
-      width: 90%;
-      margin: 40px auto 0 auto;
-    }
+  .description {
+    width: 90%;
+    margin: 40px auto 0 auto;
+  }
 
-    .button {
-        margin: 40px 0 20px 0;
-    }
+  .button {
+    margin: 40px 0 20px 0;
+  }
 }
