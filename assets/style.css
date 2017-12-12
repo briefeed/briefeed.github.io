@@ -123,8 +123,8 @@ footer {
 
 @media only screen and (max-width: 736px) {
   .main-container {
-    font-size: 17px;
-    line-height: 28px;
+    font-size: 19px;
+    line-height: 30px;
   }
 
   .header {
@@ -136,7 +136,6 @@ footer {
     height: 110px;
     width: 110px;
   }
-
 
   #bodymovin {
     margin: 10px auto 0 auto;
