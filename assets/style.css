@@ -145,10 +145,14 @@ footer {
 
   .description {
     width: 90%;
-    margin: 40px auto 0 auto;
+    margin: 50px auto 0 auto;
   }
 
   .button {
     margin: 40px 0 20px 0;
+  }
+
+  footer {
+    margin: 70px auto 20px auto;
   }
 }
